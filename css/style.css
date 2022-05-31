@@ -1,0 +1,26 @@
+.ms_section_bg {
+    background-color: #1ABC9C;
+}
+
+.m_avatar {
+    width: 200px;
+}
+
+.m_image {
+    width: 200px;
+}
+
+.iconwrapper {
+    text-align: center;
+    display: inline-block;
+}
+
+.iconwrapper::before,
+.iconwrapper::after {
+    content: '';
+    display: inline-block;
+    width: 2em;
+    height: 1px;
+    background: black;
+    vertical-align: middle;
+}
